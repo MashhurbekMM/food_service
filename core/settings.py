@@ -25,7 +25,8 @@ SECRET_KEY = 'django-insecure-b7)!z5ubln5wwlw#t!gjz=vv1-a=y#0v(g)-hlstn18bwa98y8
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['foodservice4.pythonanywhere.com']
+
 
 
 # Application definition
@@ -73,7 +74,6 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'core.wsgi.application'
-
 
 # Database
 # https://docs.djangoproject.com/en/5.2/ref/settings/#databases
